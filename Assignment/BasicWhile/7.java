@@ -6,15 +6,13 @@ class oddEvenRev{
 		int x= Integer.parseInt(br.readLine());
 			if(x%2==1){
 				int y;
-				while(x>0){
-					y=x-2;
-
-				System.out.println(y);
+				while(x>=1){
+				System.out.println(x+" ");
 				x=x-2;
 				}
 			}else{
-				while(x>0){
-				System.out.println(x);
+				while(x>=1){
+				System.out.println(x+" ");
 				x--;
 				}
 			}
